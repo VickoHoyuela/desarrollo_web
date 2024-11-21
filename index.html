@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./node_modules/reveal.js/dist/reveal.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/reveal.js/dist/theme/black.css"
+    />
+    <link rel="stylesheet" href="./node_modules/reveal.js/plugin/highlight/monokai.css" />
+    <title>Desarrollo web</title>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- <section>
+          <h1>Desarrollo web</h1>
+          <h2>Introducción</h2>
+        </section> -->
+        <section>
+          <pre>
+            <code data-line-numbers="9-12">
+              &lt;!DOCTYPE html&gt;
+                &lt;html lang="en"&gt;
+                &lt;head&gt;
+                  &lt;meta charset=&quot;UTF-8&quot;&gt;
+                  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+                  &lt;title&gt;Mi primera página&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                  &lt;h1&gt;Hola mundo&lt;/h1&gt;
+                  &lt;p&gt;Esta es mi primera página&lt;/p&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;
+            </code>
+          </pre>
+        </section>
+      </div>
+    </div>
+  </body>
+  <script src="./node_modules/reveal.js/dist/reveal.js"></script>
+  <script src="./node_modules/reveal.js/plugin/highlight/highlight.js"></script>
+  <script>
+    Reveal.initialize({
+      plugins: [RevealHighlight],
+    });
+  </script>
+</html>
